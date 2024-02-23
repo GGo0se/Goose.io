@@ -1,15 +1,18 @@
-body{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-background-color: rgb(65, 68, 75);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  transform: translateY(-100px);
+    overflow-y: hidden;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: rgb(65, 68, 75);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
